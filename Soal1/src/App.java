@@ -14,12 +14,9 @@ public class App {
                     if (longestCount < count) {
                         longestCount = count;
                     }
-                    ;
                 } else if (ar[i] != ar[i + 1]) {
                     count = 1;
                 }
-
-                ;
             }
         }
         return longestCount;
@@ -47,7 +44,6 @@ public class App {
                     System.out.println("Can only input 0 or 1");
                     ar[i] = input.nextInt();
                 }
-                ;
             }
             System.out.print("Number of consecutive : ");
             System.out.println(countNumber(ar, n));
