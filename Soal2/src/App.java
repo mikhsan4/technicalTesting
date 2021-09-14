@@ -5,7 +5,7 @@ public class App {
     public static void stringReverse(char[] ch, int pos) {
         if(pos >= ch.length)
             return;
-        
+            
         stringReverse(ch, pos+1);
         System.out.print(ch[pos]);
 
@@ -19,7 +19,7 @@ public class App {
 
         try{
 
-            String s = input.next();
+            String s = input.nextLine();
             int pos = 0;
             char[] ch = new char[s.length()];
 
@@ -35,7 +35,5 @@ public class App {
             input.close();
         }
 
-
-        // System.out.println("Hello, World!");
     }
 }
