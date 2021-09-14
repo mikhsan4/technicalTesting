@@ -28,7 +28,7 @@ public class App {
         if (arrayList.isEmpty() == true) {
             return result = "YES";
         }
-        // result = arrayList.isEmpty() ? "YES" : "NO";
+        
         return result;
     }
 
@@ -39,6 +39,5 @@ public class App {
         String s = input.nextLine();
         String yesno = balance(s);
         System.out.println(yesno);
-        // System.out.println("Hello, World!");
     }
 }
